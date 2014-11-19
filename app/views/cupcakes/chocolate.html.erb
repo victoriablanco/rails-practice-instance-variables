@@ -1,0 +1,8 @@
+<h1>Cupcakes have many frostings</h1>
+
+<dl class="dl-horizontal">
+  <% @frostings.each do |frosting, amount| %>
+    <dt><%= frosting %></dt>
+     <dd><%= amount %></dd>
+    <% end %>
+  </dl>
